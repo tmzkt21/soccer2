@@ -1,0 +1,19 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lsg.web.mappers.StadiumMapper">
+    <select id ="selectALl" resultType="com.lsg.web.domains.StadiumDTO">
+select
+ stadiumId stadium_id ,
+ stadiumName stadium_name ,
+ homeTeamId hometeam_id ,
+ seatCount seat_count ,
+ address,
+ ddd,
+ tel
+
+ from stadium
+</select>
+
+</mapper>

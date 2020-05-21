@@ -1,0 +1,28 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lsg.web.mappers.TeamMapper">
+    <select id ="selectALl" resultType="com.lsg.web.domains.TeamDTO">
+select
+ teamId team_id,
+ regionName region_name,
+  teamName team_name,
+  eTeamName e_team_name,
+  origYyyy orig_yyyy,
+   zipCode1 zip_code1,
+   zipCode2 zip-code2,
+    address,
+    ddd,
+    tel,
+    fax,
+ homepage,
+ owner,
+ stadiumId stadium_id
+
+
+
+ from team
+</select>
+
+</mapper>

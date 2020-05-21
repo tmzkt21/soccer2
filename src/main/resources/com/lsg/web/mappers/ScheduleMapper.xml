@@ -1,0 +1,20 @@
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.lsg.web.mappers.ScheduleMapper">
+    <select id ="selectALl" resultType="com.lsg.web.domains.ScheduleDTO">
+select
+scheDate sche_date,
+stadiumId stadium_id,
+guBun ,
+homeTeamId hometeam_id,
+awayTeamId awayteam_id,
+homeScore home_score,
+awayScore away_score
+
+
+from schesule
+</select>
+
+</mapper>
